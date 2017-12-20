@@ -1,0 +1,37 @@
+body{
+  margin-top: 2%;
+  background-image: url(http://3.bp.blogspot.com/-hw0fgjO3bCY/VhZm3v3Cv8I/AAAAAAAAAqw/XrZNRuK0ETQ/s1600/plant-whisperer-hero.jpg);
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+}
+
+.wrapper{
+  padding-top: 22%;
+  width: 80%;
+  max-width: 550px;
+  margin: auto;
+}
+.Barometerbild1{
+  background-image: url();
+}
+.checkboxsehrgut{
+  margin: 4.5%;
+  margin-top: 10%;
+  width: 80%;
+  height: 100px;
+}
+.checkboxgut{
+  margin: 4.5%;
+  width: 80%;
+  height: 100px;
+}
+.rund{
+  border-radius: 50px;
+}
+.checkboxschlecht{
+  background-color: red;
+  border: solid 2px red;
+  margin: 4.5%;
+  width: 80%;
+  height: 100px;
+}
