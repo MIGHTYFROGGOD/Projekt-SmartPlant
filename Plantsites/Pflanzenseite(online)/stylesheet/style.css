@@ -25,13 +25,15 @@ body{
   width: 80%;
   height: 100px;
 }
-.rund{
-  border-radius: 50px;
-}
 .checkboxschlecht{
-  background-color: red;
-  border: solid 2px red;
+  
+  border: solid 2px black;
+  border-radius:100%;
   margin: 4.5%;
-  width: 80%;
+  width: 20%;
   height: 100px;
+}
+.checkboxschlecht:hover{
+  background-color: red;
+
 }
