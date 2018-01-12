@@ -4,6 +4,6 @@ $stmt = $dbh->prepare("SELECT COUNT(*) AS anzahl FROM daten");
       $stmt->execute();
       $anzahl_wasser = $stmt->fetch();
       if ($anzahl_wasser["anzahl"] >=13) {
-	$stmt = $dbh->query("DELETE FROM daten WHERE id > 297 AND id > 298 AND id > 299 AND id > 300 AND id > 301 AND id > 301 AND id > 302 AND id > 303 AND id > 304 AND id > 305 AND id > 337 AND id > 338 AND id > 339");
+	$stmt = $dbh->query("DELETE FROM daten WHERE id > 0 AND id > 1 AND id > 2 AND id > 3 AND id > 4 AND id > 5 AND id > 6 AND id > 7 AND id > 8 AND id > 9 AND id > 10 AND id > 11");
       }
 ?>

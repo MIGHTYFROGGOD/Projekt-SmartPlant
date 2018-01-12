@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(84, 255, 118,0.3);
+}
+.wrapper{
+  max-width: 200px;
+  margin: auto;
+  height: 350px;
+}
+h1{
+  text-align: center;
+}
+.gif{
+  margin-top: 10%;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+h4{
+  text-align: center;
+  font-weight: bold;
+}
+.giessenbutton{
+  background-color: rgb(186, 255, 199,0.2);
+  background-image: url("https://openclipart.org/image/2400px/svg_to_png/249610/waterDroplet2.png");
+  background-size: 75px 80px;
+  background-repeat: no-repeat;
+  border-radius: 2em;
+  border-color: rgba(186, 255, 199,0.2);
+  color: rgba(107, 214, 249,0.01);
+  height: 83px;
+  padding:1px;
+  width: 80px;
+  margin-left: 32%;
+  top: 300px;
+}
+.giessenbutton:hover{
+  background-color: rgb(164, 244, 180);
+}
+.giessenbutton::after{
+  border-color: rgb(186, 255, 199,0.2);
+}

@@ -1,5 +1,9 @@
+
 body{
   background-color: rgb(84, 255, 118,0.3);
+}
+label{
+  font-family: 'Oxygen', sans-serif;
 }
 .wrapper{
   max-width: 200px;
@@ -8,6 +12,7 @@ body{
 }
 h1{
   text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
 .gif{
   margin-top: 10%;
@@ -18,6 +23,7 @@ h1{
 h4{
   text-align: center;
   font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
 }
 .giessenbutton{
   background-color: rgb(186, 255, 199,0.2);
@@ -38,4 +44,139 @@ h4{
 }
 .giessenbutton::after{
   border-color: rgb(186, 255, 199,0.2);
+}
+.formularwrapper{
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Oxygen', sans-serif;
+}
+h3{
+  text-align: center;
+}
+a{
+  display: block;
+  height: 200px;
+  width:200px;
+}
+.formular{
+  background-image: url(http://icons.iconarchive.com/icons/tatice/cristal-intense/96/Fleche-droite-vert-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(247, 255, 247,0.75);
+  border: solid 2px rgba(22, 158, 54,0.8);
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 12%;
+  border-radius: 100px;
+}
+.formular:hover{
+  background-color: rgba(247, 255, 247,0.2);
+}
+.formular:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(185, 191, 185);
+  transform: translateY(5.5px);
+}
+.tamagotchi{
+  background-image: url(http://icons.iconarchive.com/icons/tatice/cristal-intense/96/Fleche-gauche-vert-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(247, 255, 247,0.75);
+  border: solid 2px rgba(22, 158, 54,0.8);
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-left: 15%;
+  margin-top: 12%;
+  border-radius: 100px;
+}
+.tamagotchi:hover{
+  background-color: rgba(247, 255, 247,0.2);
+}
+.tamagotchi:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(185, 191, 185);
+  transform: translateY(5.5px);
+}
+.nicknamelabel{
+  padding-left: 3.25%
+}
+.nickname{
+  border: solid 3px rgba(22, 158, 54,0.3);
+  border-radius: 6px;
+  margin: 1% 4% 2% 4%;
+  width: 140px;
+  height: 15px;
+  background-image: url(http://wallpaperrs.com/uploads/creative-graphics/thumbs/green-plants-wallpaper-30057.jpg);
+  background-size: 142px 157px;
+
+
+}
+.nickname:hover{
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+p{
+  text-align: center;
+}
+.email{
+  border: solid 3px rgba(22, 158, 54,0.3);
+  border-radius: 6px;
+  margin-left: 10.75%;
+  width: 140px;
+  height: 15px;
+  background-image: url(http://wallpaperrs.com/uploads/creative-graphics/thumbs/green-plants-wallpaper-30057.jpg);
+  background-size: 142px 157px;
+
+}
+.email:hover{
+  -webkit-transform: scale(1.25);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.abschickencener{
+  display:block;
+  margin-left: 0 auto;
+}
+
+.submittbuttoncenter{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-align:center;
+}
+.submitbutton{
+  display:block;
+  margin: 0 auto;
+  background-image: url(http://www.meiners.de/wp-content/themes/Meiners/img/blatt.png);
+  background-size: 150px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-color: rgba(247, 255, 247,0.75);
+  border: solid 2px rgba(22, 158, 54,0.8);
+  border-radius: 100px;
+  width: 160px;
+  height:160px;
+  font-size: 0px;
+  margin-top: 20px;
+}
+.submitbutton:hover{
+  background-color: rgba(247, 255, 247,0.2);
+}
+.submitbutton:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(185, 191, 185);
+  transform: translateY(5.5px);
+}
+.errors{
+  margin-top: 3%;
+	background: rgb(255, 214, 214);
+	color: rgb(255, 0, 0);
+	border: 1px solid red;
+	padding: 2px 3px 2px 3px;
+	border-radius: 6px;
 }
